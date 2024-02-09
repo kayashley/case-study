@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>myFlix Case Study</title>
+<link rel="stylesheet" type="text/css" href="./myFlix Case Study_files/styles.css"></head>
+
+<body data-new-gr-c-s-check-loaded="14.1153.0" data-gr-ext-installed="">
+    <nav>
+        <div class="nav-bar"></div>
+    </nav>
+    
+
+
+    
+
+    <div class="header">
+        <h1 class="case-study-header">myFlix Case Study</h1>
+        <p>Kayla Chan</p>
+    </div>
+    
+
+    <!-- overview -->
+    <div class="beginning">
+        <img class="img-mainview-selected" src="./myFlix Case Study_files/mainview-selected.JPG">
+        <h3>Overview</h3>
+        <p>
+            myFlix is a web app, developed using the MERN stack, 
+            that provides users with access to information to a small variety of movies. 
+            Users are able to create an account, update their personal data, 
+            and create a list of their favorite movies. 
+        </p>
+        <h4>Purpose &amp; Context</h4>
+        <p>
+            myFlix was a a personal project I built as part of my web development course 
+            at CareerFoundry to demonstrate my mastery of full-stack JavaScript development.
+        </p>
+        <h4>Objective</h4>
+        <p>
+            The purpose of this project was to have an ambitious full-stack project I can 
+            add to my professional portfolio. The main issue I wanted to solve was to build 
+            a complete server-side and client-side for the application from scratch.
+            
+        </p>
+        
+    </div>
+
+    <!-- approach -->
+    <div class="middle">
+        <h2>Approach</h2>
+        <h4>Server-Side</h4>
+        <p>
+            By creating a RESTful API using Node.js and Express, that interacts with a non-relational 
+            database (MongoDB). The API can be accessed via commonly used HTTP methods like GET or POST. 
+            To retrieve data from and store data in the database, CRUD methods are used. The API 
+            provides movie information in JSON format. 
+        </p>
+        <h4>Client-Side</h4>
+        <p>
+            Once I completed the API, I started to build the interface users would need when making requests 
+            to, and receiving responses from the server-side. It is a single-page, responsive application, 
+            developed with React and React-Redux. The application provides several interfaces, including 
+            a main view (full list of movies), individual movie view (data about a single movie and allows 
+            users to add the movie to their list of favorites), a login view, a registration view, and a profile 
+            view (users can update their user data and list of favorite movies).
+        </p>
+    </div>
+
+    <!-- images -->
+    <div class="img-align">
+
+            <img class="img-login" src="./myFlix Case Study_files/login.JPG" width="100%">
+
+
+            <img class="img-mainview" src="./myFlix Case Study_files/search-movie.JPG" width="100%">
+
+   
+            <img class="img-profile" src="./myFlix Case Study_files/profile.JPG" width="100%">
+
+    </div>
+
+    <!-- challenges -->
+    <div class="end">
+        <h2>Challenges</h2>
+            <p>
+                This project was my most favorable and most challenging project. I enjoyed building the API and 
+                working with database structures. I also quickly became familiar with using the terminal. Determining 
+                the client-side, it took me a while to understand how React and Redux work and how to achieve the 
+                desired results. But with the help of my amazing tutor and mentor calls, I was able to successfully conquer 
+                these challenges.
+            </p>
+        <h4>Duration</h4>
+        <p>
+            The development of the client-side took me twice as long as it normally took to complete a CareerFoundry achievement. 
+            Bearing in mind I needed time to change gears and grasp React and React-Redux to fully understand this library.
+        </p>
+
+        <!-- credits -->
+        <h4>Credits</h4>
+        <p>
+            Role: Lead Developer <br>
+            Tutor: Moises Serrano <br>
+            Mentor: Jonatan Caraballo
+        </p>
+
+        <a href="https://myflix-app-kc.netlify.app/" target="blank">
+            <button>Demo</button>
+        </a>
+        <a href="https://github.com/kayashley/myFlix-client.git" target="blank">
+            <button>Code</button>
+        </a>
+
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;limited&quot;,&quot;isActive&quot;:false,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
